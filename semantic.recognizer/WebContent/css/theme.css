@@ -1,0 +1,269 @@
+@CHARSET "ISO-8859-1";
+
+.sapUiUx3ShellHeader>hr {
+	background-color: #33A1EB;
+}
+
+.sapUiUx3ShellHeader, .sapUiUx3ShellBgImg,
+html[data-sap-ui-browser='ie8'] .sapUiUx3ShellHeader, html[data-sap-ui-browser='ie8'] .sapUiUx3ShellBgImg,
+html[data-sap-ui-browser='ie9'] .sapUiUx3ShellHeader, html[data-sap-ui-browser='ie9'] .sapUiUx3ShellBgImg
+{
+	background-color: #fff;
+	background-image: none;
+	color: rgb(78, 78, 78);
+	text-shadow: none;
+}
+
+#app--shellId-hdr>h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarList>.sapUiUx3NavBarItemSel,.sapUiUx3NavBarToplevel .sapUiUx3NavBarList>li:hover,.sapUiUx3NavBarToplevel .sapUiUx3NavBarItem:hover,.sapUiUx3NavBarToplevel .sapUiUx3NavBarItemSel>a,.sapUiUx3NavBarToplevel .sapUiUx3NavBarItemSel>a:hover
+	{
+	color: #33A1EB !important;
+}
+
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarList>li,.sapUiUx3NavBarToplevel .sapUiUx3NavBarItem
+	{
+	color: #3C3739 !important;
+}
+
+.sapUiUx3ShellCanvasBackground,.sapUiUx3ShellCanvas { -
+	-background: #ebebeb url('../img/bgr.png');
+	background: #fff url('../img/bgr.png');
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-style: solid solid none;
+	border-top-color: #004AB8;
+	border-right-color: #004AB8;
+	border-left-color: #004AB8;
+}
+
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarArrow {
+	border-color: #000000 transparent #33A1EB;
+}
+
+.sapUiTableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td:last-child
+	{
+	border-right: 2px solid #33A1EB;
+	border-bottom: 2px solid #33A1EB;
+}
+
+.sapUiTableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeMulti .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeMultiToggle .sapUiTableRowHdr.sapUiTableRowSel
+	{
+	background-color: #33A1EB;
+}
+
+.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td {
+	border-top: 2px solid #33A1EB;
+	border-bottom: 2px solid #33A1EB;
+}
+
+.sapUiTableCtrl tr.sapUiTableRowHvr {
+	background-color: rgb(250, 240, 247);
+}
+
+.sapUiFormTitle.sapUiFormTitleEmph,.sapUiPanelHdrEmph {
+	border-color: #33A1EB;
+	margin-bottom: 0.5rem;
+}
+
+.sapUiBtnS.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnStd.sapUiBtnStdHover {
+	background-color: #33A1EB;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdHover
+	{
+	border-color: #33A1EB;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdHover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:focus,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdFocus
+	{
+	box-shadow: inset 0 1px 0 #2E91D4;
+	-moz-box-shadow: inset 0 1px 0 #2E91D4;
+	-webkit-box-shadow: inset 0 1px 0 #2E91D4;
+}
+
+.sapUiMnuItm.sapUiMnuItmHov {
+	color: #ffffff;
+	background-color: #33A1EB;
+}
+
+.sapUiTfStd>.sapUiTfDateIcon:hover {
+	background-color: #33A1EB;
+}
+
+.sapUiTfBrd.sapUiTfStd:hover {
+	border-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-current-day>.ui-state-default
+	{
+	border-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-state-default.ui-state-hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-current-day>.ui-state-default.ui-state-hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-today>.ui-state-default.ui-state-hover
+	{
+	background-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker th,.sapUi-jQdatePicker.ui-datepicker td.ui-datepicker-week-col
+	{
+	color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-title>select:hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-title>select:focus
+	{
+	background-color: #33A1EB;
+}
+
+.sapUiUx3ShellHeader-logout:hover {
+	background-color: #33A1EB;
+}
+
+.sapUiUx3ShellToolPaletteArea,.sapUiUx3ShellPaneBarRight { -
+	-border-top: 1px dotted rgb(170, 170, 170);
+	background-color: #fff; -
+	-top: 103px;
+}
+
+.sapUiTableRowHdr,.sapUiTableTr>td {
+	background: #fff;
+}
+
+.sapUiUx3ShellHeader-logout {
+	background-image: url('../img/logout.png');
+}
+
+.sapUiDlgHdr {
+	border-bottom-color: #33A1EB;
+}
+
+TableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td:last-child
+	{
+	border-right: 2px solid #33A1EB;
+	border-bottom: 2px solid #33A1EB;
+}
+
+.sapUiTableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeMulti .sapUiTableRowHdr.sapUiTableRowSel,.sapUiTableSelModeMultiToggle .sapUiTableRowHdr.sapUiTableRowSel
+	{
+	background-color: #33A1EB;
+}
+
+.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td {
+	border-top: 2px solid #33A1EB;
+	border-bottom: 2px solid #33A1EB;
+}
+
+.sapUiTableCtrl tr.sapUiTableRowHvr {
+	background-color: rgb(250, 240, 247);
+}
+
+.sapUiFormTitle.sapUiFormTitleEmph,.sapUiPanelHdrEmph {
+	border-color: #33A1EB;
+	margin-bottom: 0.5rem;
+}
+
+.sapUiBtnS.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnStd.sapUiBtnStdHover {
+	background-color: #33A1EB;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdHover
+	{
+	border-color: #33A1EB;
+}
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdHover,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:focus,.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdFocus
+	{
+	box-shadow: inset 0 1px 0 #2E91D4;
+	-moz-box-shadow: inset 0 1px 0 #2E91D4;
+	-webkit-box-shadow: inset 0 1px 0 #2E91D4;
+}
+
+.sapUiMnuItm.sapUiMnuItmHov {
+	color: #ffffff;
+	background-color: #33A1EB;
+}
+
+.sapUiTfStd>.sapUiTfDateIcon:hover {
+	background-color: #33A1EB;
+}
+
+.sapUiTfBrd.sapUiTfStd:hover {
+	border-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-current-day>.ui-state-default
+	{
+	border-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-state-default.ui-state-hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-current-day>.ui-state-default.ui-state-hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-today>.ui-state-default.ui-state-hover
+	{
+	background-color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker th,.sapUi-jQdatePicker.ui-datepicker td.ui-datepicker-week-col
+	{
+	color: #33A1EB;
+}
+
+.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-title>select:hover,.sapUi-jQdatePicker.ui-datepicker .ui-datepicker-title>select:focus
+	{
+	background-color: #33A1EB;
+}
+
+.sapUiUx3ShellHeader-logout:hover {
+	background-color: #33A1EB;
+}
+
+.sapUiUx3ShellToolPaletteArea,.sapUiUx3ShellPaneBarRight { -
+	-border-top: 1px dotted rgb(170, 170, 170);
+	background-color: #fff; -
+	-top: 103px;
+}
+
+.sapUiTableRowHdr,.sapUiTableTr>td {
+	background: #fff;
+}
+
+.sapUiUx3ShellHeader-logout {
+	background-image: url('../img/logout.png');
+}
+
+.sapUiDlgHdr {
+	border-bottom-color: #33A1EB;
+}
+
+.sapUiTable>.sapUiTableHdr {
+	border-bottom: 2px solid #33A1EB;
+}
+
+.sapUiTvH2 {
+	color : #004AB8 !important;
+}
+
+.sapUiFormTitleH3{
+	color : #33A1EB !important;
+}
+
+#app--shellId-logoImg{
+	min-width: 3.5rem;
+	min-height: 3.5rem;
+}
+
+.sapUiLbl{
+	color: #338933;
+	font-weight: 800;
+	font-size: 1.1rem;
+}
+
+.sapUiTableHdrTitle{
+	color: #167ABC !important;
+}
+
+.sapUiUx3NavBarItem{
+	font-size: 1.1rem !important;
+}

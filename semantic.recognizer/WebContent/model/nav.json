@@ -1,0 +1,9 @@
+{
+    "items": [
+        {
+            "key": "wi_home",
+            "shortViewName": "Home",
+            "requiredRole": "Everyone"
+        }
+    ]
+}

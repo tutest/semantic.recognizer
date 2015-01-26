@@ -1,0 +1,11 @@
+<template data-controller-name="semantic.recognizer.view.App">
+<div id="shellId" data-sap-ui-type="sap.ui.ux3.Shell" data-app-title="Semantic Recognizer" data-app-icon="img/logo.jpg" data-show-search-tool="false"
+	data-show-feeder-tool="false" data-workset-item-selected="selectItem" data-workset-items="{nav>/items}" data-logout="onLogutPressed">
+	<div data-sap-ui-aggregation="worksetItems">
+		<div data-sap-ui-type="sap.ui.ux3.NavigationItem" data-text="{path: 'nav>key', formatter: '.localize'}" data-key="{nav>key}"></div>
+	</div>
+	<div data-sap-ui-aggregation="headerItems">
+		<div data-sap-ui-type="sap.ui.commons.TextView" data-text="An anonymous user"></div>
+	</div>
+</div>
+</template>

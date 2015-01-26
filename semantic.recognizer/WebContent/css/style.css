@@ -1,0 +1,82 @@
+.formButton {
+	margin-left: 0.5rem !important;
+}
+
+.imgMargin {
+	margin-left: 0.3rem;
+}
+
+div.sapUiPanelTb {
+	text-align: right;
+	margin-right: 0rem;
+	margin-bottom: 0.5rem;
+}
+
+div[id$=formContainer-content]>div:first-child {
+	height: 100%;
+}
+
+.buttonContainer {
+	width: 100%;
+	text-align: right;
+	margin-top: 0.5rem;
+}
+
+#PositionsId,#DraftId,#PostedId {
+	box-shadow: 0px 0px 2px rgba(126, 119, 119, 0.3);
+	-moz-box-shadow: 0px 0px 2px rgba(126, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 2px rgba(126, 119, 119, 0.3);
+}
+
+#refreshHolder {
+	float: right;
+	padding-top: 15px;
+	position: relative;
+	top: 0px;
+	transition: top 0.8s;
+}
+
+.refreshHolderHidden {
+	top: 50px !important;
+}
+
+#refreshHolder>button {
+	background: transparent;
+	border: none;
+	color: #e20074;
+	height: 28px;
+}
+
+#refreshHolder>button:hover {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	border: none;
+	background: rgb(88, 88, 88);
+	color: #fff;
+}
+
+.autoWidth {
+	width: auto !important;
+}
+
+.sapUiRFLContainerContent .sapUiHLayoutChildWrapper {
+	width: 100%;
+}
+
+.almostFullWidth {
+	width: 93%;
+}
+
+#app--shellId-logoImg{
+	min-width: 3.5rem;
+	min-height: 3.5rem;
+}
+
+.leftMargin{
+	margin-left: 1rem;
+}
+
+.marginBottom{
+	margin-bottom: 1rem;
+}

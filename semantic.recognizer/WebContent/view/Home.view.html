@@ -1,0 +1,43 @@
+<template data-controller-name="semantic.recognizer.view.Home">
+
+	<div data-sap-ui-type="sap.ui.commons.Panel" data-show-collapse-icon="false">
+		<div data-sap-ui-aggregation="content">
+			<div data-sap-ui-type="sap.ui.layout.VerticalLayout">
+				<div data-sap-ui-type="sap.ui.layout.HorizontalLayout" id="searchLayout" data-visible="true" class="marginBottom">
+					<div data-sap-ui-type="sap.ui.commons.Label" data-text="Sentence:" data-tooltip="Sentence " class="searchLabelStyle" data-width="7rem"></div>
+					<div data-sap-ui-type="sap.ui.commons.DropdownBox" id="langDropdown" data-width="6rem" class="leftMargin" data-tooltip="Please selected the sentence language.">
+						<div data-sap-ui-aggregation="items">
+							<div data-sap-ui-type="sap.ui.core.ListItem" data-key="en" data-text="English"></div>
+							<div data-sap-ui-type="sap.ui.core.ListItem" data-key="fr" data-text="French"></div>
+							<div data-sap-ui-type="sap.ui.core.ListItem" data-key="de" data-text="German"></div>
+							<div data-sap-ui-type="sap.ui.core.ListItem" data-key="es" data-text="Spanish"></div>
+							<div data-sap-ui-type="sap.ui.core.ListItem" data-key="zh" data-text="Chinese"></div>
+						</div>
+					</div>
+					<div data-sap-ui-type="sap.ui.commons.SearchField" id="searchField" data-width="35rem" data-search="onAnalyze" data-enable-list-suggest="false" data-tooltip="Analyze the entered sentence." class="leftMargin"></div>
+				</div>
+				<div data-sap-ui-type="sap.ui.table.Table" id="analysisTable" data-selection-mode="Single" data-rows="{analysis>/}" data-editable="false"
+					data-visible-row-count="20" data-title="Results {path:'analysis>/', formatter:'semantic.recognizer.util.Helper.formatCount'}">
+					<div data-sap-ui-aggregation="columns">
+						<div data-sap-ui-type="sap.ui.table.Column" data-sort-property="type" data-filter-property="type">
+							<div data-sap-ui-aggregation="label">
+								<div data-sap-ui-type="sap.ui.commons.Label" data-text="Type"></div>
+							</div>
+							<div data-sap-ui-aggregation="template">
+								<div data-sap-ui-type="sap.ui.commons.TextField" data-value="{analysis>type}" data-editable="false"  data-tooltip="{analysis>type}"></div>
+							</div>
+						</div>
+						<div data-sap-ui-type="sap.ui.table.Column" data-sort-property="text" data-filter-property="text">
+							<div data-sap-ui-aggregation="label">
+								<div data-sap-ui-type="sap.ui.commons.Label" data-text="Text"></div>
+							</div>
+							<div data-sap-ui-aggregation="template">
+								<div data-sap-ui-type="sap.ui.commons.TextField" data-value="{analysis>text}" data-editable="false" data-tooltip="{analysis>text}"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
